@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\ColorChange.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\RagdollControl.cs" />
     <Compile Include="Assets\Scripts\MagneticEffect.cs" />
   </ItemGroup>
   <ItemGroup>
