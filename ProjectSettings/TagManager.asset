@@ -2,8 +2,10 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - RedBall
+  - YellowBall
   layers:
   - Default
   - TransparentFX
@@ -11,19 +13,19 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Layer 11
+  - Layer 12
+  - Layer 13
+  - Layer 21
+  - Layer 22
+  - Layer 23
+  - Layer 31
+  - Layer 32
+  - Layer 33
+  - Layer_RedBall
+  - Layer_YellowBall
+  - Layer_GreenBall
+  - Layer_Finish
   - 
   - 
   - 
@@ -50,27 +52,3 @@ TagManager:
   - Light Layer 5
   - Light Layer 6
   - Light Layer 7
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
