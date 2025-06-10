@@ -64,13 +64,19 @@
     <Compile Include="Assets\Scripts\IgnoreCollision.cs" />
     <Compile Include="Assets\Scripts\RigidbodyMod.cs" />
     <Compile Include="Assets\Scripts\DayNight.cs" />
+    <Compile Include="Assets\Scripts\AircraftController.cs" />
     <Compile Include="Assets\Scripts\SpawnObject.cs" />
     <Compile Include="Assets\Scripts\CubeCrasher.cs" />
     <Compile Include="Assets\Scripts\ColorChange.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\BulletSpawner.cs" />
     <Compile Include="Assets\Scripts\RagdollControl.cs" />
     <Compile Include="Assets\Scripts\MagneticEffect.cs" />
+    <Compile Include="Assets\Scripts\MoveAircraft.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
