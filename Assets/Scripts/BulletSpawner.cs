@@ -11,7 +11,7 @@ public class BulletSpawner : MonoBehaviour
         {
             GameObject newBullet = Instantiate(
                 BulletPrefab, transform.position, transform.rotation);
-            newBullet.GetComponent<Rigidbody>().velocity =
+            newBullet.GetComponent<Rigidbody>().linearVelocity =
                 transform.forward * BulletVelocity;
         }
     }

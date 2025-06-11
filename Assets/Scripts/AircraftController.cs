@@ -37,8 +37,8 @@ public class AircraftController : MonoBehaviour
         rb.AddRelativeForce(movement * speed);
 
         // Ограничение скорости
-        Vector3 clampedVelocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
-        rb.velocity = clampedVelocity;
+        Vector3 clampedVelocity = Vector3.ClampMagnitude(rb.linearVelocity, maxSpeed);
+        rb.linearVelocity = clampedVelocity;
 
         // Подпрыгивание при нажатии клавиши пробел
         if (Input.GetKeyDown(KeyCode.Space) && canJump)
@@ -55,7 +55,7 @@ public class AircraftController : MonoBehaviour
             distanceToGround = hit.distance;
         }
 
-        float verticalVelocity = rb.velocity.y;
+        float verticalVelocity = rb.linearVelocity.y;
 
 
         float adjustment = Mathf.Clamp((hoverHeight - distanceToGround) * 0.3f, 0, 1) * jumpForce;
