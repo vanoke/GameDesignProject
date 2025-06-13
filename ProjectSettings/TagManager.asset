@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RedBall
   - YellowBall
+  - Bullet
   layers:
   - Default
   - TransparentFX
